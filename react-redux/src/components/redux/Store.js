@@ -1,6 +1,7 @@
 import pizzaReducer from "./pizza/PizzaReducers";
 import { legacy_createStore } from "redux";
+import { rootReducer } from "./rootReducer";
 
-const store = legacy_createStore(pizzaReducer);
+const store = legacy_createStore(rootReducer);
 
 export default store;

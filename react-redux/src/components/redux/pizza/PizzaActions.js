@@ -1,6 +1,6 @@
 import { ORDER_PIZZA } from "./PizzaTypes";
 
-export const orderPIzza = () => {
+export const orderPizza = () => {
   return {
     type: ORDER_PIZZA,
   };
